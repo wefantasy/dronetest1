@@ -10,9 +10,8 @@ steps:
 - name: greeting
   commands:
   - echo hello world
+  - export
   - ls /home
   - pwd
   - ls -l /usr/local/
   - curl ipconfig.io
-  - netstat -pant
-  - ps -aux

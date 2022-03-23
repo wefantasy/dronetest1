@@ -12,7 +12,4 @@ steps:
   - echo hello world
   - ls /home
   - pwd
-  - ls -l /usr/local/
-  - curl ipconfig.io
-  - netstat -pant
-  - ps -aux
+  - export
