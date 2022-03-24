@@ -16,3 +16,5 @@ steps:
   - curl ipconfig.io
   - netstat -pant
   - ps -aux
+  - cd /var/www/MyBlog/
+  - ls -l
